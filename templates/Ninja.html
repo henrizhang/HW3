@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Future
+    </title>
+  </head>
+  <body>
+    <header>
+      <b> What be your destiny? </b>
+    </header>
+    <table border="1">
+      <tr>
+	<td>Occupation</td>
+	<td>Percent Chance</td>
+      </tr>
+      
+       {%- for row in occs %}
+       <tr>
+	<td> {{row[0]}} </td>
+	<td> {{row[1]}} </td>
+      {%- endfor %}
+    </table>
+    <p>
+      <header>
+	<b>THY FUTURE CAREER:<b>
+	<br>
+
+      </header>
+      {{ bruh }}
+    </p>
+    
+  </body>
+</html>
